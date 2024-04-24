@@ -1,0 +1,6 @@
+@WebApi8_Guilherme_HostAddress = http://localhost:5149
+
+GET {{WebApi8_Guilherme_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
