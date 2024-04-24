@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Adicionada a referência da interface com o serviço
 builder.Services.AddScoped<IAutorInterface, AutorService>();
 builder.Services.AddScoped<ILivroInterface, LivroService>();
 
